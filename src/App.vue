@@ -1,17 +1,22 @@
 <template>
   <div id="app">
     <Header></Header>
-    <router-view/>
+    <div class="container">
+      <router-view/>
+      <Footer></Footer>
+    </div>
   </div>
 </template>
 
 <script>
 import Header from './components/common/Header'
+import Footer from './components/common/Footer'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
