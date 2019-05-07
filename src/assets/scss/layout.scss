@@ -1,0 +1,40 @@
+body{
+  background-color: #fcbc76;
+}
+.navbar{
+  padding: 1.875rem 0 0 0;
+}
+.navbar-brand{
+  max-width: 160px;
+  margin: 0 3.75rem 0 0;
+  img{
+    width: 100%;
+  }
+}
+.navbar-light{
+  .navbar-nav{
+    margin: 0.625rem 0 0 0;
+    li.nav-item{
+      margin: 0 3.75rem 0 0;
+      &:last-child{
+        margin: 0;
+      }
+    }
+    .nav-link{
+      padding: 0 0 0.3125rem 0;
+      color: #ed6a12;
+      transition: color 0.5s;
+      &:hover{
+        color: #ffffff;
+      }
+    }
+    .active{
+      transition: 0.5s;
+      .nav-link{
+        color: #ffffff;
+        border-bottom: 1px solid #ffffff;
+      }
+    }
+
+  }
+}
