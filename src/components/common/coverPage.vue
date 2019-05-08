@@ -17,9 +17,9 @@
 
 <script>
 export default {
-    created() {
-        
-    },
+  created: function () {
+
+  }
 }
 </script>
 <style lang="scss" scope>
